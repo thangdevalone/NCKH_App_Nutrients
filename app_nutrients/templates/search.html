@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/icons/css/all.min.css">
+    <link rel="stylesheet" href="../static/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/queries.css">
+    <link rel="stylesheet" href="../static/css/default.css">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <title>Tra cứu chất dinh dưỡng</title>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary nav-cs">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><div class="logo">
+            <img src="../static/images/logoTLU.png" alt="Logo">
+          </div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link "  href="/home">Trang chủ</a>
+              <a class="nav-link" href="/menu">Thực đơn dinh dưỡng</a>
+              <a class="nav-link" href="/cook">Chế biến món ăn</a>
+              <a class="nav-link active" aria-current="page" href="/search">Tra cứu chất dinh dưỡng</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div class="header-search">
+          <div class="s-l mb-3">
+            <div class="input-group search-ip mb-2">
+              <input type="text" id="search-input" class="form-control" placeholder="Nhập từ khóa" aria-label="Nhập từ khóa" aria-describedby="button-addon2">
+              <button class="btn btn-outline-primary" type="button" id="button-addon2">Tìm kiếm</button>
+            </div>
+            <span>Nhập từ khóa món ăn muốn tìm: "Thịt bò","Thịt lợn",...</span>
+          </div>
+          
+          <div class="tx-size">
+            Hỗ trợ tra cứu các chất dinh dưỡng có trong các nguyên liệu nấu ăn
+          </div>
+        </div>
+       <div class="rs-search data-search">
+        
+       </div>
+      </main>
+      <script src="../static/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script type="module" src="../static/js/search.js"></script>
+</body>
+</html>

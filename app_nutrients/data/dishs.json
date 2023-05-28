@@ -1,0 +1,410 @@
+{
+  "foods": [
+    {
+      "link": "/static/images/beef_steak.jpg",
+      "nav_name":"beef_steak",
+      "name": "Thịt bò nướng",
+      "description": "Món bò nướng thơm ngon",
+      "search": ["beef", "bò nướng", "thịt bò nướng","bò"],
+      "concern":["Bò"],
+      "type":"Bò",
+      "nutrition": {
+        "calories": 350,
+        "protein": 25,
+        "carbohydrates": 5,
+        "fat": 26
+      }
+    },
+    {
+      "link": "/static/images/suon_heo_rang_muoi.jpg",
+      "nav_name":"suon_heo_rang_muoi",
+      "name": "Sườn heo rang muối",
+      "description": "Món sườn heo rang muối giòn ngon",
+      "search": ["pork", "sườn heo rang muối", "thịt lợn rang muối","thịt"],
+      "concern":["Lợn"],
+      "type":"Lợn",
+      "nutrition": {
+        "calories": 280,
+        "protein": 18,
+        "carbohydrates": 10,
+        "fat": 20
+      }
+    },
+    {
+      "link": "/static/images/thit_bo_xao.jpg",
+      "nav_name":"thit_bo_xao",
+      "name": "Thịt bò xào",
+      "description": "Thịt bò xào cà chua thơm ngon",
+      "search": ["beef", "thịt bò xào", "bò xào cà chua"],
+      "concern":["Bò","Xào","Cà chua"],
+      "type":"Bò",
+      "nutrition": {
+        "calories": 320,
+        "protein": 22,
+        "carbohydrates": 15,
+        "fat": 18
+      }
+    },
+    {
+      "link": "/static/images/ba_roi_heo_nuong.jpg",
+      "nav_name":"ba_roi_heo_nuong",
+      "name": "Ba rọi heo nướng",
+      "description": "Ba rọi heo nướng mật ong thơm lừng",
+      "search": ["pork", "ba rọi heo nướng", "thịt lợn nướng mật ong"],
+      "concern":["Lợn"],
+      "type":"Lợn",
+      "nutrition": {
+        "calories": 380,
+        "protein": 20,
+        "carbohydrates": 8,
+        "fat": 30
+      }
+    },
+    {
+      "link": "/static/images/bun_cha.jpg",
+      "nav_name":"bun_cha",
+      "name": "Bún chả",
+      "description": "Món ăn truyền thống của Việt Nam",
+      "search": ["bún chả", "chả", "bún"],
+      "concern":["Lợn","Chả"],
+      "type":"Bún",
+      "nutrition": {
+        "calories": 450,
+        "protein": 25,
+        "carbohydrates": 55,
+        "fat": 12
+      }
+    },
+    {
+      "link": "/static/images/ca_chien.jpg",
+      "nav_name":"ca_chien",
+      "name": "Cá chiên vàng giòn",
+      "description": "Món ăn dân dã của mọi làng quê",
+      "search": ["fish", "cá chiên", "cá chiên giòn","cá"],
+      "concern":["Cá","Chiên & Rán"],
+      "type":"Cá",
+      "nutrition": {
+        "calories": 300,
+        "protein": 25,
+        "carbohydrates": 0,
+        "fat": 15
+      }
+    },
+    {
+      "link": "/static/images/ga_nuong.jpg",
+      "nav_name":"ga_nuong",
+      "name": "Gà nướng",
+      "description": "Món ăn ngon và phổ biến với gà được nướng chín vàng",
+      "search": ["gà nướng", "nướng gà", "grilled chicken","gà"],
+      "concern":["Gà","Nướng"],
+      "type":"Gà",
+      "nutrition": {
+        "calories": 400,
+        "protein": 30,
+        "carbohydrates": 0,
+        "fat": 15
+      }
+    },
+    {
+      "link": "/static/images/nom_hoa_chuoi.jpg",
+      "nav_name":"nom_hoa_chuoi",
+      "name": "Nộm hoa chuối",
+      "description": "Món nộm truyền thống với hoa chuối tươi ngon",
+      "search": ["nộm hoa chuối", "hoa chuối", "banana blossom salad","nộm"],
+      "concern":["Nộm","Hoa chuối"],
+      "type":"Nộm",
+      "nutrition": {
+        "calories": 150,
+        "protein": 5,
+        "carbohydrates": 30,
+        "fat": 2
+      }
+    },
+    {
+      "link": "/static/images/suon_xao_chua_ngot.jpg",
+      "nav_name":"suon_xao_chua_ngot",
+      "name": "Sườn xào chua ngọt",
+      "description": "Món sườn heo xào chua ngọt đậm đà và hấp dẫn",
+      "search": ["sườn xào chua ngọt", "sweet and sour pork ribs","sườn","thịt"],
+      "concern":["Sườn","Lợn","Xào"],
+      "type":"Sườn",
+      "nutrition": {
+        "calories": 350,
+        "protein": 25,
+        "carbohydrates": 10,
+        "fat": 20
+      }
+    },
+    {
+      "link": "/static/images/nem_ran.jpg",
+      "nav_name":"nem_ran",
+      "name": "Nem rán",
+      "description": "Nem rán truyền thống của Việt Nam",
+      "search": ["nem rán", "fried spring rolls","nem"],
+      "concern":["Nem","Chiên & Rán"],
+      "type":"Nộm",
+      "nutrition": {
+        "calories": 220,
+        "protein": 8,
+        "carbohydrates": 25,
+        "fat": 10
+      }
+    },
+    {
+      "link": "/static/images/banh_cuon.jpg",
+      "nav_name":"banh_cuon",
+      "name": "Bánh cuốn",
+      "description": "Món bánh mỏng nhẹ được gói nhân thịt và nước mắm chấm",
+      "search": ["bánh cuốn", "rice rolls"],
+      "concern":["Bánh"],
+      "type":"Bánh",
+      "nutrition": {
+        "calories": 180,
+        "protein": 5,
+        "carbohydrates": 30,
+        "fat": 3
+      }
+    },
+    {
+      "link": "/static/images/banh_mi.jpg",
+      "nav_name":"banh_mi",
+      "name": "Bánh mì",
+      "description": "Món bánh mì thơm ngon với nhiều loại nhân khác nhau",
+      "search": ["bánh mì", "bread"],
+      "concern":["Bánh"],
+      "type":"Bánh",
+      "nutrition": {
+        "calories": 250,
+        "protein": 8,
+        "carbohydrates": 45,
+        "fat": 4
+      }
+    },
+    {
+      "link": "/static/images/com_tam.jpg",
+      "nav_name":"com_tam",
+      "name": "Cơm tấm",
+      "description": "Món cơm tấm gồm cơm nóng, thịt heo nướng, trứng, và mỡ hành",
+      "search": ["cơm tấm", "broken rice","cơm"],
+      "concern":["Cơm","Lợn","Trứng"],
+      "type":"Cơm",
+      "nutrition": {
+        "calories": 400,
+        "protein": 20,
+        "carbohydrates": 60,
+        "fat": 10
+      }
+    },
+    {
+      "link": "/static/images/goi_cuon.jpg",
+      "nav_name":"goi_cuon",
+      "name": "Gỏi cuốn",
+      "description": "Món gỏi cuốn gồm bánh tráng, rau sống, thịt, tôm, và các loại gia vị",
+      "search": ["gỏi cuốn", "spring rolls","gỏi"],
+      "concern":["Gỏi"],
+      "type":"Gỏi",
+      "nutrition": {
+        "calories": 120,
+        "protein": 6,
+        "carbohydrates": 20,
+        "fat": 2
+      }
+    },
+    {
+      "link": "/static/images/hu_tieu.jpg",
+      "nav_name":"hu_tieu",
+      "name": "Hủ tiếu",
+      "description": "Món hủ tiếu là một món ăn truyền thống gồm sợi bánh phở và các loại gia vị, thường được kèm theo thịt, hải sản và rau sống",
+      "search": ["hủ tiếu", "rice noodle soup","mì"],
+      "concern":["Mì","Thịt","Hải sản"],
+      "type":"Mì",
+      "nutrition": {
+        "calories": 350,
+        "protein": 15,
+        "carbohydrates": 60,
+        "fat": 5
+      }
+    },
+    {
+      "link": "/static/images/cha_ca.jpg",
+      "nav_name":"cha_ca",
+      "name": "Chả cá",
+      "description": "Món chả cá làm từ cá tươi tẩm gia vị và chiên giòn",
+      "search": ["chả cá", "fish cake","cá"],
+      "concern":["Cá","Chả"],
+      "type":"Chả",
+      "nutrition": {
+        "calories": 200,
+        "protein": 15,
+        "carbohydrates": 10,
+        "fat": 12
+      }
+    },
+    {
+      "link": "/static/images/de_tai_chanh.jpg",
+      "nav_name":"de_tai_chanh",
+      "name": "Dê tái chanh",
+      "description": "Món dê tái chanh làm từ thịt dê tái và nước chanh tươi",
+      "search": ["dê tái chanh", "lemongrass grilled goat","dê","thịt"],
+      "concern":["Dê","Thịt"],
+      "type":"Dê",
+      "nutrition": {
+        "calories": 280,
+        "protein": 25,
+        "carbohydrates": 5,
+        "fat": 18
+      }
+    },
+    {
+      "link": "/static/images/sup_luon.jpg",
+      "nav_name":"sup_luon",
+      "name": "Súp lươn",
+      "description": "Món súp lươn làm từ lươn tươi và các loại rau củ",
+      "search": ["súp lươn", "eel soup","súp"],
+      "concern":["Lươn","Thịt","Súp"],
+      "type":"Súp",
+      "nutrition": {
+        "calories": 180,
+        "protein": 15,
+        "carbohydrates": 10,
+        "fat": 8
+      }
+    },
+    {
+      "link": "/static/images/mi_quang.jpg",
+      "nav_name":"mi_quang",
+      "name": "Mì Quảng",
+      "description": "Món mì Quảng là một món ăn đặc sản của miền Trung Việt Nam, bao gồm mì, thịt, hải sản, rau sống và nước dùng đậm đà",
+      "search": ["mì Quảng", "Quang-style noodle","mì"],
+      "concern":["Mì","Thịt","Hải sản"],
+      "type":"Mì",
+      "nutrition": {
+        "calories": 400,
+        "protein": 20,
+        "carbohydrates": 50,
+        "fat": 15
+      }
+    },
+    {
+      "link": "/static/images/ca_kho.jpg",
+      "nav_name":"ca_kho",
+      "name": "Cá kho",
+      "description": "Món cá kho là món ăn truyền thống của Việt Nam, làm từ cá tươi kho qua quá trình nấu chung với nước mắm, đường và gia vị khác",
+      "search": ["cá kho", "braised fish","cá"],
+      "concern":["Cá","Kho"],
+      "type":"Cá",
+      "nutrition": {
+        "calories": 250,
+        "protein": 20,
+        "carbohydrates": 5,
+        "fat": 15
+      }
+    },
+    {
+      "link": "/static/images/rau_muong_xao_toi.jpg",
+      "nav_name":"rau_muong_xao_toi",
+      "name": "Rau muống",
+      "description": "Rau muống xào tỏi thơm ngon",
+      "search": ["rau muống", "rau xào", "rau xào tỏi","rau","rau xào"],
+      "concern":["Rau","Rau Muống","Xào","Tỏi"],
+      "type":"Rau muống",
+      "nutrition": {
+        "calories": 20,
+        "protein": 2,
+        "carbohydrates": 3,
+        "fat": 0
+      }
+    },
+    {
+      "link": "/static/images/canh_rau_muong.jpg",
+      "nav_name":"canh_rau_muong",
+      "name": "Canh rau muống",
+      "description": "Rau muống được thêm vào canh chua hoặc canh thịt để tạo hương vị tự nhiên",
+      "search": ["canh rau muống", "water spinach soup","canh"],
+      "concern":["Rau muống","rau","Luộc"],
+      "type":"Rau muống",
+      "nutrition": {
+        "calories": 30,
+        "protein": 2,
+        "carbohydrates": 4,
+        "fat": 1
+      }
+    },
+    {
+    "link": "/static/images/canh_rau_cai.jpg",
+    "nav_name":"canh_rau_cai",
+    "name": "Canh rau cải",
+    "description": "Canh rau cải là món canh truyền thống trong ẩm thực Việt Nam, được làm từ rau cải xanh và các loại thực phẩm khác như thịt, tôm hoặc nấm",
+    "search": ["canh rau cải", "vegetable soup with cabbage","canh"],
+    "concern":["Canh","Rau","Rau cải"],
+      "type":"Rau cải",
+    "nutrition": {
+      "calories": 40,
+      "protein": 3,
+      "carbohydrates": 6,
+      "fat": 1
+    }
+  },
+  {
+    "link": "/static/images/canh_cua_rau_mong_toi.jpg",
+    "nav_name":"canh_cua_rau_mong_toi",
+    "name": "Canh cua rau mồng tơi",
+    "description": "Canh cua rau mồng tơi là món canh truyền thống kết hợp giữa cua tươi và rau mồng tơi, tạo nên hương vị đặc biệt",
+    "search": ["canh cua rau mồng tơi", "crab and water spinach soup","canh"],
+    "concern":["Canh","Cua","Rau","Rau mùng tơi"],
+      "type":"Rau mùng tơi",
+    "nutrition": {
+      "calories": 70,
+      "protein": 5,
+      "carbohydrates": 8,
+      "fat": 2
+    }
+  },
+  {
+    "link": "/static/images/thit_lon_luoc.jpg",
+    "name": "Thịt lợn luộc",
+    "nav_name":"thit_lon_luoc",
+    "description": "Thịt lợn luộc thơm ngon",
+    "search": ["thịt lợn luộc", "boiled pork","thịt"],
+    "concern":["Thịt","Lợn","Luộc"],
+      "type":"Lợn",
+    "nutrition": {
+      "calories": 280,
+      "protein": 20,
+      "carbohydrates": 0,
+      "fat": 22
+    }
+  },
+  {
+    "link": "/static/images/thit_lon_xao_chua_ngot.jpg",
+    "name": "thit_lon_xao_chua_ngot",
+    "nav_name":"Thịt lợn kho tộ",
+    "description": "Món thịt lợn xào chua ngọt ngon miệng",
+    "search": ["thịt lợn xào chua ngọt", "sweet and sour pork","thịt"],
+    "concern":["Thịt","Lợn","Xào"],
+      "type":"Lợn",
+    "nutrition": {
+      "calories": 350,
+      "protein": 25,
+      "carbohydrates": 15,
+      "fat": 20
+    }
+  },
+  {
+    "link": "/static/images/thit_lon_kho_to.jpg",
+    "nav_name":"thit_lon_kho_to",
+    "name": "Thịt lợn kho tộ",
+    "description": "Món thịt lợn kho tộ truyền thống",
+    "search": ["thịt lợn kho tộ", "braised pork belly","thịt"],
+    "concern":["Thịt","Lợn","Kho"],
+      "type":"Lợn",
+    "nutrition": {
+      "calories": 400,
+      "protein": 30,
+      "carbohydrates": 10,
+      "fat": 28
+    }
+  }
+
+  ]
+}

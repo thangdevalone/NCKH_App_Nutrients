@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/icons/css/all.min.css">
+    <link rel="stylesheet" href="../static/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/queries.css">
+    <link rel="stylesheet" href="../static/css/default.css">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <title>Tra cứu chất dinh dưỡng</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-cs">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <div class="logo">
+                    <img src="../static/images/logoTLU.png" alt="Logo">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link " href="/home">Trang chủ</a>
+                    <a class="nav-link" href="/menu">Thực đơn dinh dưỡng</a>
+                    <a class="nav-link" href="/cook">Chế biến món ăn</a>
+                    <a class="nav-link active" aria-current="page" href="/search">Tra cứu chất dinh dưỡng</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="header-detail">
+            <div class="d-img">
+
+                <img src="{{data.link}}" alt="detail">
+            </div>
+
+            <div class="tx-detail">
+                {{data.name}} <br>
+                <span class="tx-des">{{data.description}}</span>
+            </div>
+        </div>
+        <table class="table tb-1 w-50 m-auto mt-3 tb-cs">
+            <thead>
+                <tr>
+                    <th scope="col">STT</th>
+                    <th scope="col">Tên Chất</th>
+                    <th scope="col">Khối lượng</th>
+
+                </tr>
+            </thead>
+            <tbody>
+        
+                {% for nutrient, value in data.nutrition.items() %}
+                <tr>
+                    <th scope="row">{{ loop.index }}</th>
+                    <td>{{ nutrient }}</td>
+                    <td>{{ value }} {% if nutrient == 'calories' %}calories{% elif nutrient == 'protein' %}g{% elif
+                        nutrient == 'fat' %}g{% elif nutrient == 'carbohydrates' %}g{% endif %}</td>
+                </tr>
+               
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="concern">
+
+        </div>
+    </main>
+    <script src="../static/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var type = "{{data.type }}";
+    </script>
+    <script src="../static/js/nutition.js"></script>
+</body>
+
+</html>

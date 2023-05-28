@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-main: rgb(240, 242, 245);
+}
+body {
+  font-size: 16px;
+  font-family: "Segoe UI", sans-serif;
+  text-rendering: optimizeLegibility;
+  background-color: var(--bg-main);
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+.nav-cs {
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+.header-search {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.header-search .search-ip {
+  width: 100%;
+}
+.tx-size {
+  max-width: 300px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+}
+main {
+  padding: 10px 5px;
+}
+.s-l {
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+}
+.s-l span {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+.rs-search {
+  height: calc(100vh - 250px);
+  overflow: hidden scroll;
+  padding:5px;
+}
+.card-img-top img {
+  object-fit: cover;
+  height: 230px;
+  width: 100%;
+}
+.card-img-top{
+    height: 230px;
+}
+.header-detail .d-img{
+    width: 50%;
+    height: 300px;
+    
+}
+.header-detail{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    justify-content: flex-start;
+}
+.d-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.header-detail .tx-detail{
+    font-size: 1.3rem;
+    width: 50%;
+    font-weight: 500;
+    text-align: center;
+}
+.header-detail .tx-des{
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: 400;
+}
+.tb-cs{
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 8px;
+}
+th,td{
+    padding: 10px 25px !important;
+}
+.concern{
+    margin: 20px 10px 10px 10px;
+}
